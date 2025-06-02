@@ -1,0 +1,4 @@
+python-dotenv
+mistralai
+streamlit
+pybase64
