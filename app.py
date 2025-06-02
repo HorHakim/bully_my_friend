@@ -61,7 +61,7 @@ uploaded_file = st.file_uploader("📸 Choisis une photo de ton pote :", type=["
 
 if uploaded_file:
     # Afficher l'image
-    st.image(uploaded_file, caption="Voici la victime 👀", use_column_width=True)
+    st.image(uploaded_file, caption="Voici la victime 👀", use_container_width=True)
 
     # Sauvegarder temporairement le fichier
     temp_path = "temp_image.jpg"
